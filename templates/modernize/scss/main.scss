@@ -1,0 +1,123 @@
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+
+  .ad-card {
+    width: 80%;
+    margin: 200px auto;
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      background-color: deeppink;
+      margin: auto;
+    }
+  }
+}
+
+.smooth-nav {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 40px;
+  height: 200px;
+  // background-color: red;
+  z-index: 1000;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+
+      /*background-color:green;*/
+
+      margin: 30px 0;
+      text-align: right;
+
+      a{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #19e3b1;
+        position: relative;
+        background-color: rgba(white,.5);
+
+        transform: scale(.8);
+        transition: all .3s ease-out;
+
+        span{
+          // background-color:red;
+          color:black;
+          // font-weight: bold;
+          // text-shadow: 1px -1px 1px #19e3b1;
+          padding: 3px;
+          border-radius: 3px;
+          word-wrap: normal;
+          font-size: 14px;
+          margin-top: -4px;
+          position: absolute;
+          right:20px;
+          opacity: 0;
+          width:0;
+          overflow: hidden;
+          transition: all .3s ease-out;
+          text-align: center;
+        }
+
+        &:hover{
+          transform: scale(1);
+          span{
+            background-color: rgba(#19e3b1,.2);
+            width:40px;
+            border-radius: 10px;
+            opacity: 1;
+          }
+        }
+
+      }
+
+      &.active {
+        a{
+          background-color: rgba(#19e3b1,.7);
+        }
+
+      }
+
+    }
+  }
+}
+
+//footer
+
+.mdz-footer{
+  ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+
+    // text-align: left;
+
+    li{
+      &:hover{
+        background-color:white;
+      }
+
+      a{
+        padding:8px;
+      }
+    }
+  }
+}
+
+
+.ad-nav{
+  .ad-btn{
+    margin:0 -2px !important;
+
+  }
+}
