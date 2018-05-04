@@ -2,14 +2,9 @@
 
 use CoreModel as DB;
 
-class ContactModel{
-
-  function CallMethod(){
-
-  }
-
+class ContactModel
+{
+    public function onInit()
+    {
+    }
 }
-
-
-
-?>

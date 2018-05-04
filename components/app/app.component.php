@@ -6,12 +6,9 @@ Component::init([
     'scriptUrls' => ['./app/app.script.js']
 ]);
 
-class AppComponent {
-    function init(){
-      echo 'hello';
+class AppComponent
+{
+    public function onInit()
+    {
     }
 }
-
-
-
-?>

@@ -1,0 +1,420 @@
+/*
+   ** airUI Components
+   ** Author: Kofi Owusu-Afriyie
+   **Version: 1.0.0
+
+*/
+/* BASE-- base, variables, mixins, normalize */
+/* COLORS PRESETS  */
+/* COLORS Buttons*/
+/* MODULES --- Individual site components  */
+.ad-pie {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+  .ad-pie .ad-trigger {
+    position: relative;
+    z-index: 101;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+  .ad-pie .ad-content {
+    position: absolute;
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transform: scale(0) rotateZ(0deg);
+    opacity: 0;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+    .ad-pie .ad-content .ad-btn {
+      transition: all .3s ease-out;
+      transform: translate(8px, 8px) rotateZ(-45deg);
+      margin: 0;
+      position: absolute;
+      z-index: 200; }
+      .ad-pie .ad-content .ad-btn:first-child {
+        margin-left: -40px;
+        margin-top: 40px; }
+      .ad-pie .ad-content .ad-btn:nth-child(2) {
+        margin-left: -40px;
+        margin-top: -40px; }
+      .ad-pie .ad-content .ad-btn:nth-child(3) {
+        margin-left: 40px;
+        margin-top: -40px; }
+      .ad-pie .ad-content .ad-btn:nth-child(4) {
+        margin-left: 40px;
+        margin-top: 40px; }
+  .ad-pie.ad-show .ad-content {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    transform: scale(1) rotateZ(45deg); }
+  .ad-pie.ad-show > .ad-trigger {
+    opacity: 0; }
+
+.ad-loading-f[ad-count] {
+  background-color: rgba(34, 44, 55, 0.4);
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  height: 4px;
+  border-radius: 2px;
+  position: relative;
+  margin: 16px; }
+  .ad-loading-f[ad-count]:before {
+    content: '';
+    position: absolute;
+    background-color: #19e3b1;
+    display: block;
+    width: 22%;
+    height: 100%;
+    border-radius: 2px;
+    top: 0;
+    left: 0;
+    animation: fileLoader 2s ease infinite; }
+  .ad-loading-f[ad-count]:after {
+    content: attr(ad-count);
+    position: absolute;
+    display: block;
+    top: -14px;
+    right: 0; }
+  .ad-loading-f[ad-count] span {
+    display: block;
+    margin-top: -14px; }
+
+@keyframes fileLoader {
+  0% {
+    background-color: royalblue; }
+  50% {
+    background-color: #16c3de; }
+  100% {
+    background-color: royalblue; } }
+.ad-loading-i[ad-count] {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  height: 56px;
+  background-color: rgba(34, 44, 55, 0.1);
+  margin: 16px; }
+  .ad-loading-i[ad-count]:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22%;
+    bottom: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: .5;
+    background-color: #5FCF80;
+    animation: fileLoader 2s ease infinite; }
+  .ad-loading-i[ad-count] .img {
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+    border-radius: 3px;
+    background: #222c37;
+    margin: 8px 16px;
+    position: relative; }
+    .ad-loading-i[ad-count] .img img {
+      height: 100%;
+      width: auto; }
+  .ad-loading-i[ad-count] span {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    color: inherit;
+    padding-top: 8px;
+    height: 40px;
+    width: 50%; }
+
+.ad-loading-flower[ad-count] {
+  max-width: 160px;
+  height: 40px;
+  margin: 16px;
+  position: relative;
+  left: 40px; }
+  .ad-loading-flower[ad-count]:before {
+    content: attr(ad-count);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -44px;
+    width: 40px;
+    height: 40px;
+    background-color: #19e3b1;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3em;
+    border-radius: 50% 0 50% 50%; }
+  .ad-loading-flower[ad-count]:after {
+    content: '';
+    width: 22%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background-color: #19e3b1; }
+
+.ad-rating {
+  display: inline-block;
+  margin: 16px;
+  height: 19px;
+  width: 100px;
+  position: relative; }
+  .ad-rating i.fa {
+    margin: 0 2px;
+    cursor: pointer; }
+  .ad-rating .back-stars {
+    opacity: .5;
+    cursor: pointer; }
+  .ad-rating .ad-content {
+    position: absolute;
+    user-select: none;
+    top: 0;
+    overflow: hidden;
+    width: 60px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+    .ad-rating .ad-content .front-stars {
+      display: inline-block;
+      color: #fff600;
+      width: 100px; }
+
+.ad-rating {
+  display: inline-block;
+  margin: 16px;
+  height: 19px;
+  width: 100px;
+  position: relative; }
+  .ad-rating i.fa {
+    margin: 0 2px;
+    cursor: pointer; }
+  .ad-rating .back-stars {
+    opacity: .5;
+    cursor: pointer; }
+  .ad-rating .ad-content {
+    position: absolute;
+    user-select: none;
+    top: 0;
+    overflow: hidden;
+    width: 60px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+    .ad-rating .ad-content .front-stars {
+      display: inline-block;
+      color: #fff600;
+      width: 100px; }
+
+.ad-person {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 150px;
+  height: 10vh;
+  min-height: 70px;
+  /*background-color:#CCB6AF;*/ }
+  .ad-person .user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 8px;
+    -webkit-box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+    -mz-box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top; }
+    .ad-person .user img {
+      width: 100%; }
+  .ad-person .detail {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    margin-top: 10px; }
+    .ad-person .detail span {
+      padding: 2px; }
+
+.ad-user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block; }
+  .ad-user[ad-count] + span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: white;
+    background: #ff0066;
+    position: absolute;
+    top: -100%;
+    left: 60%;
+    text-align: center;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 12px;
+    z-index: 1000;
+    clip-rule: 3; }
+  .ad-user.ad-sm {
+    width: 50px;
+    height: 50px;
+    margin: 16px;
+    margin-bottom: 8; }
+  .ad-user img {
+    width: 100%; }
+
+.info {
+  width: 230px; }
+
+.ad-cardView .ad-data {
+  width: 160px;
+  height: 200px;
+  margin: 5px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s; }
+  .ad-cardView .ad-data .ad-front {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s; }
+    .ad-cardView .ad-data .ad-front.ad-slideUp {
+      margin-top: -240px; }
+    .ad-cardView .ad-data .ad-front .ad-image {
+      margin: 0; }
+    .ad-cardView .ad-data .ad-front .ad-detail {
+      margin-top: -10px; }
+      .ad-cardView .ad-data .ad-front .ad-detail strong {
+        font-size: 16px;
+        margin-bottom: 5px;
+        display: block; }
+      .ad-cardView .ad-data .ad-front .ad-detail span {
+        margin-bottom: 5px;
+        display: block; }
+  .ad-cardView .ad-data .ad-back {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s; }
+    .ad-cardView .ad-data .ad-back p {
+      margin-bottom: 0; }
+    .ad-cardView .ad-data .ad-back .ad-btn {
+      margin-top: 0; }
+  .ad-cardView .ad-data:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(0.95);
+    -o-transform: scale(1.05);
+    transition: scale(1.05); }
+
+.ad-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px; }
+  .ad-flex img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #222c37;
+    margin: 0;
+    padding: 0;
+    margin-right: 16px;
+    border-radius: 50%; }
+  .ad-flex h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: none; }
+  .ad-flex p {
+    opacity: 0.6;
+    display: inline-block;
+    margin: 0;
+    padding: 0 !important;
+    font-size: 12px; }
+
+.ad-code {
+  display: block;
+  border-left: 5px solid #19e3b1;
+  background-color: #222c37;
+  min-width: 300px;
+  max-width: 700px;
+  width: 80%;
+  margin: 40px auto;
+  /*margin-top:  40px;*/
+  min-height: 50px;
+  position: relative;
+  color: whitesmoke;
+  text-align: left;
+  padding: 0; }
+  .ad-code code {
+    /*background-color:blue;*/
+    display: inline-block;
+    width: 98%;
+    height: auto;
+    overflow: auto !important;
+    padding-top: 40px;
+    position: relative;
+    transform: translateX(-190px);
+    color: #ff0066; }
+    .ad-code code .class {
+      color: #fff600; }
+    .ad-code code .id {
+      color: #28d0ea; }
+    .ad-code code .word {
+      color: white; }
+  .ad-code:before {
+    position: absolute;
+    color: white;
+    content: 'html';
+    text-align: center;
+    line-height: 70px;
+    top: -35px;
+    left: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #19e3b1; }
+
+/*# sourceMappingURL=air.ui.css.map */

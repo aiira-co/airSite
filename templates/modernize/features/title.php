@@ -10,67 +10,25 @@
     <!--First check if its db(Website CMS), if yes, then get the title of the page from the DB,
     Else get the title of the Page from the $url-->
 
-    <?php
-      $legacy = CORE::getInstance('Legacy');
-      if(isset($legacy->routerPath['title'])){
-        $title=$legacy->routerPath['title'];
-      }else{
-        if(isset($_GET['url'])){
 
-          $url = explode('/',(rtrim(strtolower($_GET['url']),'/')));
-          $title = ucfirst($url[0]);
-          for( $i=1; $i<count($url); $i++){
-            $title.='->'.ucfirst($url[$i]);
-          }
-
-        }else{
-          $title="Home";
-        }
-      }
-
-    ?>
-    <title><?=$title;?></title>
-
-
+    <title><?php echo CORE::componentTitle();?></title>
     <!--Links-->
-    <link rel="stylesheet" href="/airDesign/dist/css/air.design.css">
+    <link rel="stylesheet" href="<?php echo CDN;?>css/air.design.css">
+  <link rel="stylesheet" href="<?php echo CDN;?>css/air.ui.css">
+
     <link rel="stylesheet" href="<?=BaseUrl;?>templates/modernize/css/main.css">
 
 
-    <link rel="stylesheet" href="<?=BaseUrl;?>libraries/design/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?=BaseUrl;?>libraries/design/css/animate.css">
+    <link rel="stylesheet" href="<?php echo CDN;?>css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo CDN;?>css/animate.css">
 
     <!-- Component Styles -->
-    <?php
-      if(isset($legacy->style)){
-        echo '<style>'.$legacy->style.'</style>';
-      }elseif(isset($legacy->styleUrls)){
-        for($i =0; $i < count($legacy->styleUrls); $i++){
-          echo '<link rel="stylesheet" href="'.BaseUrl.'components/'.$legacy->styleUrls[$i].'">';
-        }
-      }
-    ?>
+        <?php CORE::componentStyle();?>
 
 
-    <!--Favicon-->
-    <link href="<?=BaseUrl;?>media/images/logo/favicon.png" rel="icon" type="image/png"/>
-
-    <!--Scritps-->
-    <script src="<?=BaseUrl;?>libraries/design/js/jquery-3.0.0.min.js"></script>
-    <script src="/airDesign/dist/js/air.design.js"></script>
-    <script src="<?=BaseUrl;?>templates/modernize/js/main.js"></script>
-
-    <!-- Component SCRIPT -->
-    <?php
-      if(isset($legacy->script)){
-        echo '<script>'.$legacy->script.'</script>';
-      }elseif(isset($legacy->scriptUrls)){
-        for($i =0; $i < count($legacy->scriptUrls); $i++){
-          echo '<script src="'.BaseUrl.'components/'.$legacy->scriptUrls[$i].'"></script>';
-        }
-      }
-    ?>
-
+            <!--Favicon-->
+            <link href="<?php echo CDN;?>images/logo/favicon.png" rel="icon" type="image/png"/>
 
 </head>
 <body>
+  <base url='<?=BaseUrl;?>' />

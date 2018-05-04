@@ -49,9 +49,15 @@
                 <input type="text" name="" value="">
               </div>
 
-              <div class="ad-input ad-block ad-flaot">
-                <label for="">With ad-float:</label>
+              <div class="ad-input ad-block ad-icon">
+                <label for="">With ad-icon:</label>
+                <span>
+                  <i class="fa fa-google-plus"></i>
+                </span>
                 <input type="text" name="" value="">
+                <span>
+                  <i class="fa fa-microphone fa-sq"></i>
+                </span>
               </div>
 
             </div>
@@ -74,9 +80,15 @@
                 <input type="text" name="" value="">
               </div>
 
-              <div class="ad-input ad-round ad-flaot">
-                <label for="">With ad-float:</label>
+              <div class="ad-input ad-round ad-icon">
+                <label for="">With ad-ad-icon:</label>
+                <span>
+                  <i class="fa fa-google-plus"></i>
+                </span>
                 <input type="text" name="" value="">
+                <span>
+                  <i class="fa fa-microphone"></i>
+                </span>
               </div>
 
             </div>
@@ -96,9 +108,11 @@
               <h2 class="title">Contact Forms</h2>
 
 
-              <div class="ad-input ad-block ad-label ">
+              <div class="ad-input ad-block ad-label">
                 <label for="">Fullname:</label>
+
                 <input type="text" name="" value="" class="shine-pink">
+
               </div>
 
               <div class="ad-input ad-block ad-label">

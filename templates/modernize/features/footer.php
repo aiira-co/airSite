@@ -52,3 +52,13 @@
         </div>
     </div>
 </footer>
+
+<!--Scritps-->
+<script src="<?php echo CDN;?>js/jquery-3.2.1.min.js"></script>
+<script src="<?php echo CDN;?>js/air.design.js"></script>
+
+<script src="<?php echo CDN;?>js/air.ui.js"></script>
+<script src="<?php echo BaseUrl;?>templates/modernize/js/main.js"></script>
+
+<!-- Component SCRIPT -->
+<?php CORE::componentScript(); ?>

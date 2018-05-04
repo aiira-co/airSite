@@ -1,4 +1,4 @@
-<section class="ad-section darkBG" style="margin-top:-5px !important;">
+<section class="ad-section bg-dark" style="margin-top:-5px !important;">
   <div class="wrapper">
     <div class="ad-row">
       <div class="ad-cols-12">
@@ -165,16 +165,31 @@
       <?php CORE::component('design-button'); ?>
 
 
+
+
+      <!-- Cards & Tiles -->
+        <?php CORE::component('design-cards'); ?>
+
+        <!-- Modal -->
+        <?php CORE::component('design-modal'); ?>
+
+        <!-- Modal -->
+        <?php CORE::component('design-tabs'); ?>
+
         <!-- list -->
-          <?php CORE::component('design-list'); ?>
+        <?php CORE::component('design-list'); ?>
+
+
+        <!-- Header Nav -->
+        <?php CORE::component('design-header'); ?>
 
         <!-- Forms -->
 
         <?php CORE::component('design-form'); ?>
 
-      <!-- Cards & Tiles -->
-        <?php CORE::component('design-form'); ?>
+
 
 
       <!-- Grid System -->
         <?php CORE::component('design-grid'); ?>
+<ad-loading/>

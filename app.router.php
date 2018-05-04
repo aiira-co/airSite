@@ -1,40 +1,23 @@
 <?php
 
-// require_once('./components/practice/practice.component.php');
-// $c = new PracticeComponent;
-// echo $c->title;
 
+$appRoutes = [
+  ['path'=>'/', 'component'=>'app', 'title'=>'Welcome Home'],
+['path'=>'framework', 'component'=>'framework', 'title'=>'coreFramework'],
+['path'=>'design', 'component'=>'design', 'title'=>'airDesign (CSS3 & JS)'],
+  ['path'=>'api/rest', 'component'=>'rest', 'title'=>'airDesign (CSS3 & JS)'],
+  ['path'=>'store/templates', 'component'=>'templates', 'title'=>'Templates (coreframework)'],
 
-$base = array('path'=>'/', 'component'=>'app', 'title'=>'Welcome Home');
-$coreFramework = array('path'=>'framework', 'component'=>'framework', 'title'=>'coreFramework');
-$design = array('path'=>'design', 'component'=>'design', 'title'=>'airDesign (CSS3 & JS)');
-$rest = array('path'=>'api/rest', 'component'=>'rest', 'title'=>'airDesign (CSS3 & JS)');
-$templates = array('path'=>'store/templates', 'component'=>'templates', 'title'=>'Templates (coreframework)');
+   ['path'=>'softwares', 'component'=>'suite', 'title'=>'Softwares | Speed up your workflow'],
+  ['path'=>'about', 'redirectTo'=>BaseUrl],
+['path'=>'contact', 'component'=>'contact', 'title'=>'Get In Touch'],
 
-$softwares = array('path'=>'softwares', 'component'=>'suite', 'title'=>'Softwares | Speed up your workflow');
-$about = array('path'=>'about', 'redirectTo'=>BaseUrl);
-$contact = array('path'=>'contact', 'component'=>'contact', 'title'=>'Get In Touch');
+['path'=>'account', 'component'=>'account', 'title'=>'Profile', 'auth'=>[true,'account/login']],
+['path'=>'account/login', 'component'=>'login','title'=>'Please Login'],
+['path'=>'account/logout', 'component'=>'logout']
+];
 
-$account = array('path'=>'account', 'component'=>'account', 'title'=>'Profile', 'auth'=>[true,'account/login']);
-$loginPage = array('path'=>'account/login', 'component'=>'login','title'=>'Please Login');
-$logout = array('path'=>'account/logout', 'component'=>'logout');
 
  $router = CORE::getInstance('Router');
 
- $router->setRouter(
-                    $base,
-                    $design,
-                    $coreFramework,
-                    $rest,
-                    $templates,
-                    $softwares,
-                    $contact,
-                    $about,
-                    $account,
-                    $loginPage,
-                    $logout
-                  );
-
-
-
-?>
+ $router->setRouter($appRoutes);

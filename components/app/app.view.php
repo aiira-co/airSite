@@ -1,6 +1,6 @@
 <style media="screen">
   .ad-nav {
-    display: none;
+    /* display: none; */
   }
 
 
@@ -20,35 +20,38 @@
 <div class="smooth-nav">
   <ul>
     <li class="active"><a href="#top"><span>Welcome</span></a></li>
-    <li ><a href="#airDesign"><span>Design</span></a></li>
+    <li ><a href="#airDesign"><span>airDesign</span></a></li>
+    <li ><a href="#airDesign"><span>airMedia</span></a></li>
     <li ><a href="#coreFramework"><span>Framework</span></a></li>
-    <li ><a href="#REST"><span>REST</span></a></li>
+    <li ><a href="#REST"><span>Web API</span></a></li>
     <li ><a href="#Suite"><span>Suite</span></a></li>
     <li ><a href="#templates"><span>Templates</span></a></li>
   </ul>
 </div>
 
-<section class="banner ad-section darkBG" id="top" >
+<section class="banner ad-section bg-dark" id="top" >
     <div class="wrapper">
         <div class="ad-cols-12">
-          <div class="ad-card ad-flat center">
+          <div class="ad-card ad-flat text-center">
             <div class="logo">
-              <img src="<?=BaseUrl;?>media/images/logo/airColor.png" class="img-responsive" alt="">
+              <img src="<?=CDN;?>images/logo/airColor.png" class="img-responsive" alt="">
             </div>
-            <h1 class="title">Welcome to airDesign</h1>
+            <h1 class="title text-normal">
+              Developed to do everything you want to do
+            </h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <a href="#airDesign" class="ad-btn ad-block ad-flat btn-tgreen ">airDesign</a>
             <a href="#coreFramework" class="ad-btn ad-block ad-flat btn-pink ">coreFramework</a>
-            <a href="#REST" class="ad-btn ad-block ad-flat btn-prim ">coreREST</a>
+            <a href="#REST" class="ad-btn ad-block ad-flat btn-prim ">cQured API</a>
           </div>
 
         </div>
     </div>
 </section>
 
-<section class="intro ad-section whiteBG" >
+<section class="intro ad-section bg-white" >
     <div class="wrapper">
         <div class="ad-cols-12">
         <center>
@@ -59,8 +62,8 @@
             </p>
         </center>
 <br>
-        <div class="ad-card ad-img ad-flat center">
-            <img src="<?=BaseUrl;?>media/images/home/video.jpg" class="img-responsive" alt="">
+        <div class="ad-card ad-img ad-flat center" style="width:60%; margin:0 auto; max-width:600px;">
+            <img src="<?=CDN;?>images/home/video.jpg" class="img-responsive" alt="">
         </div>
         <br>
         <center>
@@ -79,7 +82,7 @@
     <div class="wrapper">
         <div class="ad-cols-4">
           <div class="ad-card ad-flat">
-            <h2 class="title">airDesign</h2>
+            <h2 class="title text-normal">airDesign CSS Framework</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
@@ -95,7 +98,7 @@
         </div>
         <div class="ad-cols-8">
           <div class="ad-card ad-img ad-flat center">
-              <img src="<?=BaseUrl;?>media/images/home/design.png"  class="img-responsive"  alt="">
+              <img src="<?=CDN;?>images/home/design.png"  class="img-responsive"  alt="">
           </div>
         </div>
     </div>
@@ -109,7 +112,7 @@
         <center>
           <div class="ad-card ad-flat">
             <p></p>
-            <h2 class="title">Core-Framework</h2>
+            <h2 class="title">Core-Framework - (PHP 7.2+)</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
@@ -119,7 +122,7 @@
         </center>
 <br>
         <div class="ad-card ad-img ad-block center">
-            <img src="<?=BaseUrl;?>media/images/framework/framework.PNG"  class="img-responsive" alt="">
+            <img src="<?=CDN;?>images/framework/framework.PNG"  class="img-responsive" alt="">
         </div>
         <br>
         <center>
@@ -139,11 +142,11 @@
 <br>
 <br>
 
-<section class="REST ad-section darkBG" id="REST">
+<section class="REST ad-section bg-dark" id="REST">
   <div class="wrapper">
       <div class="ad-cols-4">
         <div class="ad-card ad-flat">
-          <h2 class="title">REST API</h2>
+          <h2 class="title">cQured Web API - (PHP 7.2+)</h2>
           <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
@@ -159,7 +162,7 @@
       </div>
       <div class="ad-cols-8">
         <div class="ad-card ad-img ad-flat center">
-            <img src="<?=BaseUrl;?>media/images/home/restAPI.png" class="img-responsive" alt="">
+            <img src="<?=CDN;?>images/home/restAPI.png" class="img-responsive" alt="">
         </div>
       </div>
   </div>
@@ -172,17 +175,17 @@
 </div>
 
 
-<section class=" ad-section whiteBG" id="Suite">
+<section class=" ad-section bg-white" id="Suite">
   <div class="wrapper">
 
       <div class="ad-cols-8">
         <div class="ad-card ad-img ad-flat center">
-            <img src="<?=BaseUrl;?>media/images/office/suite00.jpg" class="img-responsive" alt="">
+            <img src="<?=CDN;?>images/office/suite00.jpg" class="img-responsive" alt="">
         </div>
       </div>
       <div class="ad-cols-4">
         <div class="ad-card ad-flat">
-          <h2 class="title">Our Software Suite</h2>
+          <h2 class="title">airSuite - Our Enterprise Software Suite</h2>
           <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
@@ -224,7 +227,7 @@
         <div class="ad-row temp">
           <div class="ad-cols-4">
             <div class="ad-card ad-img  ad-block center">
-                <img src="<?=BaseUrl;?>media/images/templates/temp01.png" class="img-responsive" alt="">
+                <img src="<?=CDN;?>images/templates/temp01.png" class="img-responsive" alt="">
             </div>
             <br>
 
@@ -232,7 +235,7 @@
           </div>
           <div class="ad-cols-4">
             <div class="ad-card ad-img  ad-block  center">
-                <img src="<?=BaseUrl;?>media/images/templates/temp02.png" class="img-responsive"  alt="">
+                <img src="<?=CDN;?>images/templates/temp02.png" class="img-responsive"  alt="">
             </div>
             <br>
 
@@ -240,7 +243,7 @@
           </div>
           <div class="ad-cols-4">
             <div class="ad-card ad-img  ad-block  center">
-                <img src="<?=BaseUrl;?>media/images/templates/temp03.png" class="img-responsive"  alt="">
+                <img src="<?=CDN;?>images/templates/temp03.png" class="img-responsive"  alt="">
             </div>
             <br>
 

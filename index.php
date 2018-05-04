@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Copyright (c) 2017 airDesign.
+ * Copyright (c) 2018 airDesign.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -33,15 +33,15 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  *
- * @package     [ Package ]
- * @subpackage  [ Subpackage ]
+ * @package     [ Project-AIR ]
+ * @subpackage  [ coreFramework ]
  * @author      Owusu-Afriyie Kofi <koathecedi@gmail.com>
- * @copyright   2017 airDesign.
+ * @copyright   2018 airDesign.
  * @license     http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link        http://airDesign.co.nf
+ * @link        http://airdesign.co.nf
  * @version     @@2.00@@
  */
- declare(strict_types=1);
+declare(strict_types=1);
 
     session_start();
 
@@ -54,25 +54,17 @@
             //if yes, show page
                 //else, it show error page
 
-
     require_once 'config.php';
     $adConfig = new AdConfig;
 
 
-    define('DS',DIRECTORY_SEPARATOR);
-    define('BaseUrl',$adConfig->live_site);
+    define('DS', DIRECTORY_SEPARATOR);
 
+if ($adConfig->offline) {
+    require_once 'templates'.DS.$adConfig->template.DS.'offline.php';
+} else {
+    require_once 'core'.DS.'core.php';
+    $site = new Core;
 
-    if($adConfig->offline){
-        require_once 'templates'.DS.$adConfig->template.DS.'offline.php';
-    }
-    else{
-
-         require_once 'libraries'.DS.'core'.DS.'core.php';
-         $site = new Core;
-
-         $site->Route();
-
-    }
-
-?>
+    $site->Route();
+}
