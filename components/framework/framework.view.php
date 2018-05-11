@@ -1,88 +1,145 @@
-<section class="ad-section darkBG" style="margin-top:-5px !important;">
+<section class="ad-section bg-dark" style="margin-top:-5px !important;">
   <div class="wrapper">
     <div class="ad-row">
       <div class="ad-cols-12">
-        <div class="ad-card ad-flat center">
-          <h2 class="title">
-            CoreFramework
+        <div class="ad-card ad-flat text-center">
+          <div class="logo">
+            <img src="<?=CDN;?>images/logo/coreframeworkWhite.png" class="img-responsive" alt="">
+          </div>
+          <br>
+          <h2 class="title text-normal">
+            CoreFramework: PHP 7.2+ Framework
           </h2>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p class="p-center">
+            Develope Professional Website and Applications with ease:
+  PHP 7 Framework with AirJax Framework, and airDesign in-the-box 'AirJax' is a lite javascript framework written for Single Page Application experience.
           </p>
-          <a href="#" class="ad-btn ad-block ad-md btn-pink">Download Framework</a>
+          <br>
+          <a href="https://github.com/air-Design/coreFramework" target="_blank" class="ad-btn ad-block ad-md btn-tgreen">Download Framework</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="ad-section whiteBG">
-  <div class="wrapper">
-    <h2>Getting Started</h2>
-    <p>
-      Core Framework is a PHP7 MVC framework. It follows a component based approach where a component contains the component file and its view. A separate file which is a model handles database queries which is used by the component to render data into the browser through the view file.
-    </p>
 
-    <p>
+<section class="ad-section bg-white" id="coreFramework">
+    <div class="wrapper">
+        <div class="ad-cols-12">
 
-      <span class="colorPink">INSTALLATION</span>
-      <br>
+        <div class="ad-card ad-img ad-block center">
+            <img src="<?=CDN;?>images/framework/framework.PNG"  class="img-responsive" alt="">
+        </div>
+        <br>
+        <center>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-block ad-flat btn-tgreen">
+                <i class="fa fa-play-circle"></i>Video Tutorials
+            </a>
+        </center>
 
-      Download the framework from this page, it comes bundled in a zip file format. Extract the files in the MyApp folder into a folder which is the name of the app you want to create. Copy the folder into your PHP7 server directory.
-      <br>
-      Eg. In XAMPP, copy the folder to the htdocs folder of the XAMPP directory.
-      <br>
-      <br>
-      Now open the config.php file in the framework and set the variable $live_site to the corresponding name of the app on the server.
-      <br>
-      Eg. If the folder name was ‘MyApp’, change the value of the $live_site variable to ‘/MyAPP/’ or ‘http://localhost/MyApp/’.
-      <br>
-      <br>
-      The value of the variable is used throughout the framework as a constant called BaseUrl. This is used to reference image directory, CSS and Script files, routing etc.
-      <br>
-      Open your browser and make sure your Server(Apache) is running and open the site or app.
-      <br>
-      Remember that the framework is written in PHP7 so your server must run PHP7 and above for your app to function.
-    </p>
 
-    <p>
-
-      <span class="colorPink">SETTING UP THE DATABASE</span>
-      <br>
-      The framework 2 pages which requires a database connection (person’s page and the login page).
-      In the zip file, there is coreDB.sql file in a folder called Database. Open your database management studio. In XAMPP open the PHPMYADMIN page and create a database called coreDB. Import the sql file (coreDB.sql) into the database.
-      Now open the config.php file and set the variables:
-    </p>
-    <div class="ad-card darkBG">
-      <p>
-
-      •	$dbtype = meaning the database type,
-      <br>
-      &nbsp; o	if its MySQL or MySQLi, -> ‘mysqli’ .
-      <br>
-      &nbsp; o	Microsoft SQL -> ‘mssql’.
-      <br>
-      &nbsp; o	Oracle -> ‘oracle’
-      <br>
-      •	$host: where the database is hosted.
-      <br>
-      •	$db to the corresponding database name you just created, in this case coreDB.
-      <br>
-      •	$user, is the username to access your database (default is root).
-      <br>
-      •	$password is the password to access the database (leave empty if no password is related).
-      <br>
-      •	$db_prefix = the table prefix for the database if any.
-      <p/>
+        </div>
     </div>
-      Now go to the person’s page on the framework, if all things are properly set, the page should display correctly with some data from the database being displayed on the table. In this page, you can decide to add new person, edit person’s info, and delete a person. Try them.
-      <br>
-      <br>
-      You can also go to the login page, just go back to the home page, scroll down and click on the account button. This should take you to the login page. Credentials are:
-      •	Username: admin
-      •	Password: admin123
-      After authentication, you should be able to view the account page. Authentication to view a page is set at the app.router.php file.
-    </p>
+</section>
+
+
+<section class="ad-section ">
+  <div class="wrapper">
+    <div class="ad-colx-2">
+      <div class="ad-card bg-white">
+        <a href="#structure" class="ad-item">Folder Structure</a>
+        <a href="#libraries" class="ad-item">Library Folder</a>
+        <a href="#component" class="ad-item">Components</a>
+        <a href="#models" class="ad-item">Models</a>
+        <a href="#coremodel" class="ad-item">CoreModel</a>
+        <a href="#routing" class="ad-item">Routing</a>
+      </div>
+    </div>
+    <div class="ad-colx-10">
+      <div class="ad-card bg-white">
+
+        <h2 class="title">Getting Started</h2>
+        <p>
+          Core Framework is a PHP7 MVC framework. It follows a component based approach where a component contains the component file and its view. A separate file which is a model handles database queries which is used by the component to render data into the browser through the view file.
+        </p>
+
+        <p>
+      </div>
+
+      <div class="ad-card bg-white">
+
+        <h2 class="title color-pink">INSTALLATION</h2>
+        <p>
+
+          Download the framework from this page, it comes bundled in a zip file format. Extract the files in the MyApp folder into a folder which is the name of the app you want to create. Copy the folder into your PHP7 server directory.
+          <br>
+          Eg. In XAMPP, copy the folder to the htdocs folder of the XAMPP directory.
+          <br>
+          <br>
+          Now open the config.php file in the framework and set the variable $live_site to the corresponding name of the app on the server.
+          <br>
+          Eg. If the folder name was ‘MyApp’, change the value of the $live_site variable to ‘/MyAPP/’ or ‘http://localhost/MyApp/’.
+          <br>
+          <br>
+          The value of the variable is used throughout the framework as a constant called BaseUrl. This is used to reference image directory, CSS and Script files, routing etc.
+          <br>
+          Open your browser and make sure your Server(Apache) is running and open the site or app.
+          <br>
+          Remember that the framework is written in PHP7 so your server must run PHP7 and above for your app to function.
+        </p>
+
+
+      </div>
+
+      <div class="ad-card bg-white">
+
+        <h2 class="title color-pink">SETTING UP THE DATABASE</h2>
+        <p>
+
+          The framework 2 pages which requires a database connection (person’s page and the login page).
+          In the zip file, there is coreDB.sql file in a folder called Database. Open your database management studio. In XAMPP open the PHPMYADMIN page and create a database called coreDB. Import the sql file (coreDB.sql) into the database.
+          Now open the config.php file and set the variables:
+        </p>
+      </div>
+
+
+      <div class="ad-card bg-dark ">
+        <p>
+
+          •	$dbtype = meaning the database type,
+          <br>
+          &nbsp; o	if its MySQL or MySQLi, -> ‘mysqli’ .
+          <br>
+          &nbsp; o	Microsoft SQL -> ‘mssql’.
+          <br>
+          &nbsp; o	Oracle -> ‘oracle’
+          <br>
+          •	$host: where the database is hosted.
+          <br>
+          •	$db to the corresponding database name you just created, in this case coreDB.
+          <br>
+          •	$user, is the username to access your database (default is root).
+          <br>
+          •	$password is the password to access the database (leave empty if no password is related).
+          <br>
+          •	$db_prefix = the table prefix for the database if any.
+          <p/>
+        </div>
+        <div class="ad-card bg-white">
+          <p>
+            Now go to the person’s page on the framework, if all things are properly set, the page should display correctly with some data from the database being displayed on the table. In this page, you can decide to add new person, edit person’s info, and delete a person. Try them.
+            <br>
+            <br>
+            You can also go to the login page, just go back to the home page, scroll down and click on the account button. This should take you to the login page. Credentials are:
+            •	Username: admin
+            •	Password: admin123
+            After authentication, you should be able to view the account page. Authentication to view a page is set at the app.router.php file.
+
+          </p>
+
+        </div>
+
+    </div>
 
   </div>
 </section>
@@ -95,14 +152,7 @@
 <section class="ad-section menu">
   <div class="wrapper">
     <div class="ad-row">
-      <div class="ad-cols-12">
-        <a href="#structure" class="ad-btn">Folder Structure</a>
-        <a href="#libraries" class="ad-btn">Library Folder</a>
-        <a href="#component" class="ad-btn">Components</a>
-        <a href="#models" class="ad-btn">Models</a>
-        <a href="#coremodel" class="ad-btn">CoreModel</a>
-        <a href="#routing" class="ad-btn">Routing</a>
-      </div>
+
     </div>
   </div>
 </section>
@@ -120,7 +170,7 @@
         </div>
       </div>
       <div class="ad-cols-6">
-<div class="ad-card ad-flat ad-block whiteBG">
+<div class="ad-card ad-flat ad-block bg-white">
 
   <h3 class="title">Component Folder </h3>
   <p>
@@ -139,7 +189,7 @@
   </p>
 </div>
 
-<div class="ad-card ad-flat ad-block whiteBG">
+<div class="ad-card ad-flat ad-block bg-white">
 
   <h3 class="title">Media Folder </h3>
   <p>
@@ -152,7 +202,7 @@
   </p>
 </div>
 
-<div class="ad-card ad-flat ad-block whiteBG">
+<div class="ad-card ad-flat ad-block bg-white">
 
   <h3 class="title">Plugin Folder </h3>
   <p>
@@ -171,7 +221,7 @@
 
       <div class="ad-cols-6">
 
-        <div class="ad-card ad-flat ad-block whiteBG">
+        <div class="ad-card ad-flat ad-block bg-white">
 
           <h3 class="title">Templates Folder</h3>
           <p>
@@ -183,7 +233,7 @@
           </p>
         </div>
 
-        <div class="ad-card ad-flat ad-block whiteBG">
+        <div class="ad-card ad-flat ad-block bg-white">
 
           <h3 class="title">Config.php</h3>
           <p>
@@ -193,7 +243,7 @@
           </p>
         </div>
 
-        <div class="ad-card ad-flat ad-block whiteBG">
+        <div class="ad-card ad-flat ad-block bg-white">
 
           <h3 class="title">Index.php </h3>
           <p>
@@ -202,7 +252,7 @@
             You are advised not to alter this file except you know what you are about.
           </p>
         </div>
-        <div class="ad-card ad-flat ad-block whiteBG">
+        <div class="ad-card ad-flat ad-block bg-white">
 
           <h3 class="title">Libraries Folder </h3>
           <p>
@@ -221,7 +271,7 @@
 </div>
 
 
-<section class="ad-section whiteBG" id="component">
+<section class="ad-section bg-white" id="component">
   <div class="wrapper">
     <div class="ad-row">
       <div class="ad-cols-12">

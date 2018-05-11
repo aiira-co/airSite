@@ -21,7 +21,7 @@
   <ul>
     <li class="active"><a href="#top"><span>Welcome</span></a></li>
     <li ><a href="#airDesign"><span>airDesign</span></a></li>
-    <li ><a href="#airDesign"><span>airMedia</span></a></li>
+    <li ><a href="#airMedia"><span>airMedia</span></a></li>
     <li ><a href="#coreFramework"><span>Framework</span></a></li>
     <li ><a href="#REST"><span>Web API</span></a></li>
     <li ><a href="#Suite"><span>Suite</span></a></li>
@@ -34,17 +34,20 @@
         <div class="ad-cols-12">
           <div class="ad-card ad-flat text-center">
             <div class="logo">
-              <img src="<?=CDN;?>images/logo/airColor.png" class="img-responsive" alt="">
+              <img src="<?=CDN;?>images/logo/airdesign2White.png" class="img-responsive" alt="">
             </div>
+            <br>
             <h1 class="title text-normal">
               Developed to do everything you want to do
             </h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a href="#airDesign" class="ad-btn ad-block ad-flat btn-tgreen ">airDesign</a>
-            <a href="#coreFramework" class="ad-btn ad-block ad-flat btn-pink ">coreFramework</a>
-            <a href="#REST" class="ad-btn ad-block ad-flat btn-prim ">cQured API</a>
+            <div>
+              <a href="#airDesign" class="ad-btn ad-block btn-prim outline">airDesign</a>
+              <a href="#coreFramework" class="ad-btn ad-block ad-flat btn-tgreen ">coreFramework</a>
+              <a href="#REST" class="ad-btn ad-block ad-flat btn-pink ">cQured API</a>
+            </div>
           </div>
 
         </div>
@@ -54,13 +57,13 @@
 <section class="intro ad-section bg-white" >
     <div class="wrapper">
         <div class="ad-cols-12">
-        <center>
+        <div class="text-center">
             <h2>Quick Intro</h2>
-            <p>
+            <p class="p-center">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
             </p>
-        </center>
+        </div>
 <br>
         <div class="ad-card ad-img ad-flat center" style="width:60%; margin:0 auto; max-width:600px;">
             <img src="<?=CDN;?>images/home/video.jpg" class="img-responsive" alt="">
@@ -83,7 +86,7 @@
         <div class="ad-cols-4">
           <div class="ad-card ad-flat">
             <h2 class="title text-normal">airDesign CSS Framework</h2>
-            <p>
+            <p >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
             </p>
@@ -106,20 +109,52 @@
 
 
 
-<section class="coreFramework ad-section " id="coreFramework">
+
+
+<section class="airMedia ad-section " id="airMedia">
     <div class="wrapper">
         <div class="ad-cols-12">
-        <center>
-          <div class="ad-card ad-flat">
+          <div class="ad-card text-center ad-flat">
             <p></p>
-            <h2 class="title">Core-Framework - (PHP 7.2+)</h2>
-            <p>
+            <h2 class="title">airMedia - CSS Media Componets</h2>
+            <p  class="p-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
             </p>
 
           </div>
+<br>
+        <div class="ad-card ad-img ad-block center">
+          <div class="ad-slide-group" responsive effect='crossLeft'>
+            <img src="<?=CDN;?>images/framework/framework.PNG"  class="ad-slide img-responsive" alt="">
+            <img src="<?=CDN;?>images/framework/framework.PNG"  class="ad-slide img-responsive" alt="">
+            <img src="<?=CDN;?>images/framework/framework.PNG"  class="ad-slide img-responsive" alt="">
+
+          </div>
+        </div>
+        <br>
+        <center>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-block ad-flat btn-pink">Get Started >></a>
         </center>
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="coreFramework ad-section " id="coreFramework">
+    <div class="wrapper">
+        <div class="ad-cols-12">
+          <div class="ad-card ad-flat text-center">
+            <p></p>
+            <h2 class="title">Core-Framework - (PHP 7.2+)</h2>
+            <p class="p-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
+            </p>
+
+          </div>
 <br>
         <div class="ad-card ad-img ad-block center">
             <img src="<?=CDN;?>images/framework/framework.PNG"  class="img-responsive" alt="">

@@ -14,6 +14,7 @@
     <title><?php echo CORE::componentTitle();?></title>
     <!--Links-->
     <link rel="stylesheet" href="<?php echo CDN;?>css/air.design.css">
+    <link rel="stylesheet" href="<?php echo CDN;?>css/air.media.css">
   <link rel="stylesheet" href="<?php echo CDN;?>css/air.ui.css">
 
     <link rel="stylesheet" href="<?=BaseUrl;?>templates/modernize/css/main.css">
@@ -21,6 +22,8 @@
 
     <link rel="stylesheet" href="<?php echo CDN;?>css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo CDN;?>css/animate.css">
+
+    <link rel="stylesheet" href="<?php echo CDN;?>css/androidstudio.css">
 
     <!-- Component Styles -->
         <?php CORE::componentStyle();?>

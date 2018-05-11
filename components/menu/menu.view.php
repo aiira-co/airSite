@@ -11,22 +11,34 @@
 
                 <div class="ad-menu rFloat">
                   <ul class=''>
-                    <li>
-                      Home
-                    </li>
+
                     <li>
                       <a href="<?=BaseUrl;?>design">
                         airDesign
                       </a>
                     </li>
+
+                    <li>
+                      <a href="<?=BaseUrl;?>media">
+                        airMedia
+                      </a>
+                    </li>
+
                     <li>
                       <a href="<?=BaseUrl;?>framework" >
                         CoreFramework
                       </a>
 
                     </li>
+
                     <li>
                       <a href="<?=BaseUrl;?>api/rest" >
+                        aiRESTful
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="<?=BaseUrl;?>api/cqured" >
                         cQured API
                       </a>
                     </li>

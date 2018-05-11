@@ -1,0 +1,272 @@
+.colorPallate{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin:5px;
+    border:2px solid white;
+  }
+  
+  
+  .colorPallate.prim{
+    background-color: #28d0ea;
+  
+  }
+  
+  .colorPallate.pink{
+    background-color:#ff0066;
+  
+  }
+  
+  .colorPallate.tgreen{
+    background-color: #19e3b1;
+  }
+  
+  
+  .colorPallate.dark{
+    background-color: #222c37;
+  
+  }
+  
+  
+  .colorPallate.yellow{
+    background-color: #fff600;
+  
+  }
+  
+
+.llogo {
+    width: 200px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+
+.logo {
+    display: inline-block;
+    width: 45px;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 5px;
+    /*background-color: red;*/
+}
+
+.menuList {
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.ad-social {
+    position: absolute;
+    bottom: 50px;
+    opacity: .7;
+}
+
+.about {
+    position: relative;
+    top: -6px;
+    z-index: 100;
+}
+
+.half {
+    position: absolute;
+    top: -55px;
+    left: 0;
+    width: 50%;
+    bottom: 0;
+    height: 100vh;
+    /*background: red;*/
+    bottom: 0;
+}
+
+.half.detail {
+    right: 0;
+    left: 50%;
+}
+
+.ad-center {
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.contact {
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+}
+
+ad-header {
+    z-index: 500;
+}
+
+.banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ad-user-dashboard {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+
+
+/*.ad-user-dashboard::before{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right: 0;
+content:'';
+background-color: rgba(0,0,0,.6);
+z-index: 5;
+}*/
+
+.ad-user-dashboard .ad-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.ad-user-dashboard .ad-user {
+    position: relative;
+    /*z-index: 100;*/
+}
+
+.iphone-x {
+    position: relative;
+}
+
+.iphone-x::after {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: #F0F0F0;
+    display: block;
+    top: -25px;
+    left: 50%;
+    margin-left: -75px;
+    content: 'airDesign';
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border-radius: 16px;
+    color: #222c37;
+    /* box-shadow: 0 0 1px 0 #222c37; */
+    /* border-radius: 50%; */
+}
+
+.iwhite.iphone-x::after{
+  background-color: white;
+  color:#222c37;
+}
+
+.idark.iphone-x::after{
+  background-color: #222c37;
+  color:white;
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes lds-ripple {
+    0% {
+      top: 90px;
+      left: 90px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 15px;
+      left: 15px;
+      width: 150px;
+      height: 150px;
+      opacity: 0;
+    }
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 90px;
+      left: 90px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 15px;
+      left: 15px;
+      width: 150px;
+      height: 150px;
+      opacity: 0;
+    }
+  }
+  .lds-ripple {
+    position: relative;
+   
+  }
+  .lds-ripple div {
+    background-color:green;
+    box-sizing: content-box;
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    opacity: 1;
+    border-radius: 50%;
+    -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(1) {
+    border-color: #ffffff;
+  }
+  .lds-ripple div:nth-child(2) {
+    border-color: #ffffff;
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+  }
+
+p{
+  font-size: 18px;
+}
+
+.ad-code code{
+  font-size: 16px;
+}
+
+
+.ad-album {
+  width: 210px;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  /* background-color:red; */ }
+  .ad-album .ad-card {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative; }
+    .ad-album .ad-card .action-button {
+      display: block;
+      position: absolute;
+      right: 24px;
+      bottom: 24px;
+      text-align: center;
+      width: 50px;
+      height: 50px; }
+      .ad-album .ad-card .action-button button.ad-btn {
+        opacity: .6; }
+        .ad-album .ad-card .action-button button.ad-btn:hover {
+          opacity: 1; }
+  .ad-album small {
+    opacity: .5; }
+

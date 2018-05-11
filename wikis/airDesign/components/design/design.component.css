@@ -1,0 +1,35 @@
+.doc .colorPallate{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin:5px;
+  border:2px solid white;
+}
+
+
+.doc .colorPallate.prim{
+  background-color: #28d0ea;
+
+}
+
+.doc .colorPallate.pink{
+  background-color:#ff0066;
+
+}
+
+.doc .colorPallate.tgreen{
+  background-color: #19e3b1;
+}
+
+
+.doc .colorPallate.dark{
+  background-color: #222c37;
+
+}
+
+
+.doc .colorPallate.yellow{
+  background-color: #fff600;
+
+}
