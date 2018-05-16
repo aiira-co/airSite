@@ -29,7 +29,7 @@
   </ul>
 </div>
 
-<section class="banner ad-section bg-dark" id="top" >
+<section class="banner ad-section bg-dark" id="top" style="background-image:url('<?=CDN;?>/images/banner/open.png');">
     <div class="wrapper">
         <div class="ad-cols-12">
           <div class="ad-card ad-flat text-center">

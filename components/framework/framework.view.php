@@ -1,4 +1,4 @@
-<section class="ad-section bg-dark" style="margin-top:-5px !important;">
+<section class="ad-section bg-dark doc-banner" style="margin-top:-5px !important; background-image:url('<?=CDN;?>/images/banner/microsoft-surface-book-2-technastic-04.jpg');">
   <div class="wrapper">
     <div class="ad-row">
       <div class="ad-cols-12">
