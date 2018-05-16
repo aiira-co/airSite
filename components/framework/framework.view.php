@@ -48,11 +48,14 @@
     <div class="ad-colx-2">
       <div class="ad-card bg-white">
         <a href="#structure" class="ad-item">Folder Structure</a>
-        <a href="#libraries" class="ad-item">Library Folder</a>
         <a href="#component" class="ad-item">Components</a>
-        <a href="#models" class="ad-item">Models</a>
-        <a href="#coremodel" class="ad-item">CoreModel</a>
         <a href="#routing" class="ad-item">Routing</a>
+        <a href="#authguard" class="ad-item">AUTHGUARD</a>
+        <a href="#coremodel" class="ad-item bg-dark">
+          <span class='ad-btn btn-yellow ad-shadow'>
+            Models & CoreModel
+          </span>
+        </a>
       </div>
     </div>
     <div class="ad-colx-10">
@@ -181,7 +184,7 @@
             <h2 class="title">Component Folder </h2>
             <p>
 
-              Folder contains all the components and models for the application. These components represent the individual pages of the application.
+              Folder contains all the components for the application. These components represent the individual pages of the application.
               <br>
               Every component must contain a <span class="color-pink">[name].component.php</span> and <span class="color-pink">[name].view.php</span>. (where <span class="color-pink">[name]</span> represent the name of the component or page).
               <br>
@@ -206,7 +209,7 @@
             <h3 class="title">Assets Folder </h3>
             <p>
 
-              This contains the resource files and media content of the application. The sub folder in this folder are css, js, fonts, images, videos and audio.
+              This contains the resource files and media content of the application. The sub-folders in this folder are css, js, fonts, images, videos and audio.
               <br>
               The logo and favicon of the application is stored in the images folder here. Images of the users, persons and items related to the database are also stored here I separate folders with their respective names.
               <br>
@@ -372,7 +375,7 @@
 </section>
 
 
-<section class='ad-section bg-white'>
+<section class='ad-section bg-white' id='routing'>
   <div class="wrapper">
     <div class="ad-row">
       <div class="ad-cols-4">
@@ -475,7 +478,7 @@
 
         <div class="ad-card bg-pink">
           <p>
-            Note: every public varible in the component class can be directory called it's view file. you will see the string
+            Note: every public variable in the component class can be directory called it's view file. you will see the string
             'Users component works!' when the page is viewed at that component.
           </p>
         </div>
@@ -486,7 +489,7 @@
 </section>
 
 
-<section class='ad-section bg-white'>
+<section class='ad-section bg-white' id='authguard'>
 <div class="wrapper">
 
   <div class="ad-row">
@@ -554,7 +557,7 @@
 
   class AuthenticateModel{
 
-    // This method is used by the routing class to allow or disabllow a route to the component
+    // This method is used by the routing class to allow or disallow a route to the component
     function canActivate(string $url):bool{
       if (CoreSession::IsLoggedIn()) {
         return true;
