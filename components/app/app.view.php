@@ -84,14 +84,35 @@
 <section class="airDesign ad-section " id="airDesign">
     <div class="wrapper">
         <div class="ad-cols-4">
-          <div class="ad-card ad-flat">
-            <h2 class="title text-normal">airDesign CSS Framework</h2>
-            <p >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-            </p>
+          <div class="ad-card ad-round bg-white ad-shadow">
+            <div class="ad-card ad-flat">
+              <h2 class="title text-normal">airDesign CSS Framework</h2>
+              <p >
+                Designers and coders alike have contributed to the beauty of the web; we can always push it further.
+                <br>
+                <b class='color-blue'>airdesign</b> is a unified system that combines theory, resources, and tools for crafting digital experiences.
+              </p>
 
-            <a href="<?=BaseUrl;?>design" class="ad-btn ad-block ad-flat btn-tgreen">Get Design >></a>
+              <div class="ad-list">
+                <div class="ad-item">
+                  Buttons & Inputs
+                </div>
+                <div class="ad-item">
+                  Cards & Tiles
+                </div>
+
+                <div class="ad-item">
+                  List Items, Avatars & Thumbnails
+                </div>
+                <div class="ad-item">
+                  Other Componetents (Accordian, Tabs etc)
+                </div>
+              </div>
+
+              <p>
+                <a href="<?=BaseUrl;?>design" class="ad-btn ad-flat ad-round ad-md btn-blue">Get Design >></a>
+              </p>
+            </div>
           </div>
 
 
@@ -101,7 +122,7 @@
         </div>
         <div class="ad-cols-8">
           <div class="ad-card ad-img ad-flat center">
-              <img src="<?=CDN;?>images/home/design.png"  class="img-responsive"  alt="">
+              <img src="<?=CDN;?>images/framework/airdesignss.jpg"  class="img-responsive"  alt="">
           </div>
         </div>
     </div>
@@ -150,18 +171,23 @@
             <p></p>
             <h2 class="title">Core-Framework - (PHP 7.2+)</h2>
             <p class="p-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
+              A Modular PHP 7.2+ MVC Framework for both Website and Application Development.
+              Experience Single Page Application just by enabling 'airJax' in the config.php file.
+              <br>
+              <br>
+
+              The framework comes with a lite-JavaScript framework 'airJax' which makes it possible for you to
+              call PHP functions/methods from your active component by binding an event to any HTML element.
             </p>
 
           </div>
 <br>
         <div class="ad-card ad-img ad-block center">
-            <img src="<?=CDN;?>images/framework/framework.PNG"  class="img-responsive" alt="">
+            <img src="<?=CDN;?>images/framework/coreframework2.jpg"  class="img-responsive" alt="">
         </div>
         <br>
         <center>
-            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-block ad-flat btn-pink">Get Started >></a>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-block ad-flat btn-tgreen">Get Started >></a>
         </center>
 
 
@@ -181,13 +207,19 @@
   <div class="wrapper">
       <div class="ad-cols-4">
         <div class="ad-card ad-flat">
-          <h2 class="title">cQured Web API - (PHP 7.2+)</h2>
+          <h2 class="title text-normal">cQured Web API Framework - (PHP 7.2+)</h2>
           <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-          </p>
+              This is a PHP 7 MVC  Web API Framework to partner client-side applications like Angular, Ionic, etc.
+              <br>
+              <br>
+              You have the creative freedom to write your own API with our framework to respond to HTTP REQUESTS in a cQured way.
 
-          <a href="<?=BaseUrl;?>api/rest" class="ad-btn ad-block ad-flat btn-prim">Get Rest API >></a>
+          </p>
+          <p>
+            Apply the frameworks 'authguard', JWT authentication with composer or your own authorization code to further secure access to your URI(controllers).
+            Its Simple and Easy to use.
+          </p>
+          <a href="<?=BaseUrl;?>api/rest" class="ad-btn ad-block ad-flat btn-pink">Get Rest API >></a>
         </div>
 
 

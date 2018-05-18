@@ -186,12 +186,16 @@
       </div>
       <div class="ad-cols-8">
 
-        <br>
-        <span class="colorPallate prim ad-tip" ad-tip="prim: #28d0ea;"></span>
-        <span class="colorPallate pink ad-tip" ad-tip="pink: #ff0066;"></span>
-        <span class="colorPallate tgreen ad-tip" ad-tip="tgreen: #19e3b1;"></span>
-        <span class="colorPallate yellow ad-tip" ad-tip="yellow: #fff600;"></span>
-        <span class="colorPallate dark ad-tip" ad-tip="dark: #222c37;"></span>
+        <div class="ad-card ad-flat text-center">
+          <h3 class='title text-normal'>airDesign's Color Varibales</h3>
+          <p>
+            <span class="colorPallate prim ad-tip" ad-tip="prim: #28d0ea;"></span>
+            <span class="colorPallate pink ad-tip" ad-tip="pink: #ff0066;"></span>
+            <span class="colorPallate tgreen ad-tip" ad-tip="tgreen: #19e3b1;"></span>
+            <span class="colorPallate yellow ad-tip" ad-tip="yellow: #fff600;"></span>
+            <span class="colorPallate dark ad-tip" ad-tip="dark: #222c37;"></span>
+          </p>
+        </div>
       </p>
       <div class=" ad-card ad-flat" >
 
@@ -227,13 +231,13 @@
 
 <ad-section class="bg-dark">
   <div class="wrapper">
-    <div class="ad-card ad-flat text-center">
+    <div class="ad-card ad-flat text-center ">
     <h1 class="title text-normal">Quick Free-Style<br> Already available in airDesign</h1>
     <br>
     </div>
     <div class="ad-row">
       <div class="ad-cols-4">
-        <div class="ad-card ad-round ad-shadow" >
+        <div class="ad-card ad-round ad-shadow outline" >
           <h2 class="title">Forms</h2>
           <form class="ad-form input-pink">
             <div class="ad-input ad-label ad-round">
@@ -263,7 +267,7 @@
         </div>
       </div>
       <div class="ad-cols-4">
-        <div class="ad-card ">
+        <div class="ad-card ad-shadow outline">
           <h2 class="title">Messages</h2>
           <div class="ad-divider">
             Recent
@@ -324,23 +328,25 @@
         </div>
       </div>
       <div class="ad-cols-4">
-        <div class="ad-card ">
-        <img src="<?=CDN;?>images/bg.jpg" class="img-responsive"  alt="">
+        <div class="ad-card ad-shadow outline">
+          <div class="ad-card ad-img ad-round ad-full ad-flat outline" style='margin-top:0;'>
+            <img src="<?=CDN;?>images/banner/HZPLG29.jpg" class="img-responsive"  alt="">
+          </div>
           <div class="ad-user" style="position:absolute; left:50%; margin-left:-50px; margin-top:-50px;">
             <img src="<?=CDN;?>images/users/user1.jpg" class="img-responsive"  alt="">
           </div>
 
-          <h2 class="title">Alisa Kruus</h2>
+          <!-- <h2 class="title text-normal">airDesign</h2> -->
           <p></p>
           <ad-tab-group class="ad-round">
 
-              <ad-tab class="ad-show" label="Post">
-                <div class="ad-input ad-round ad-icon input-yellow ad-button">
+              <ad-tab class="ad-show" label="News Feed">
+                <div class="ad-input ad-round ad-icon ad-button">
                   <span>
                     <i class="fa fa-camera"></i>
                   </span>
-                  <input type="text" name="" value="">
-                  <button class="ad-btn ad-round btn-yellow">
+                  <input type="text" name="" value="Whats going on?">
+                  <button class="ad-btn ad-round btn-prim outline ad-flat">
                     &nbsp;<b>POST</b>&nbsp;
                   </button>
                 </div>
@@ -351,15 +357,15 @@
                     </div>
                   </div>
                   <div class="ad-cols-10">
-                    <div class="ad-card ad-block bg-white" style="margin-top:16px;">
-                      <div class="ad-item ad-button ">
-                        ALICIA KRUSS
+                    <div class="ad-card ad-round bg-dark ad-shadow outline outline-prim" style="margin-top:16px;">
+                      <div class="ad-item ad-button ad-flat ">
+                        Alicia Kruss
                         <span class="ad-btn-group ad-round">
-                          <button class="ad-btn btn-dark">
+                          <button class="ad-btn btn-pink">
                             <i class="fa fa-trash fa-fw"></i>
                           </button>
                           <button type="button" name="button"
-                          class="ad-btn btn-dark ">
+                          class="ad-btn btn-pink ">
                           <i class="fa fa-ellipsis-h fa-fw"></i>
                         </button>
                         </span>
@@ -373,15 +379,18 @@
                 </div>
               </ad-tab>
 
-              <ad-tab label="About">
+              <ad-tab label="About Me:">
                 <div class="ad-divider">Bio</div>
-                <p style="padding-top:0">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                   sunt in culpa qui officia deserunt mollit anim id est laborum.s
-                </p>
+                <div class="ad-card ad-round outline outline-prim">
+                  <p style="padding-top:0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.s
+                  </p>
+
+                </div>
               </ad-tab>
 
-              <ad-tab  label="Photo">
+              <ad-tab  label="My Photos">
                 <p>Pics</p>
               </ad-tab>
 

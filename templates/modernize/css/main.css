@@ -140,4 +140,27 @@
 .ad-album small {
   opacity: .5; }
 
+.colorPallate {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 1px solid white; }
+
+.colorPallate.prim {
+  background-color: #28d0ea; }
+
+.colorPallate.pink {
+  background-color: #ff0066; }
+
+.colorPallate.tgreen {
+  background-color: #19e3b1; }
+
+.colorPallate.dark {
+  background-color: #222c37; }
+
+.colorPallate.yellow {
+  background-color: #fff600; }
+
 /*# sourceMappingURL=main.css.map */
