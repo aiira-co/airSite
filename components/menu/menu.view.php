@@ -33,7 +33,7 @@
 
                     <li>
                       <a href="<?=BaseUrl;?>api/rest" >
-                        aiRESTful
+                        air.API
                       </a>
                     </li>
 

@@ -2,7 +2,8 @@
 
 class ContactComponent{
 
-  function onInit(){
-    
-  }
+
+
 }
+
+?>

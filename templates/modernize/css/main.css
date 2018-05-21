@@ -97,6 +97,11 @@
       .smooth-nav ul li.active a {
         background-color: rgba(25, 227, 177, 0.7); }
 
+.media-card {
+  width: 80%;
+  min-width: 250px;
+  margin: 10px auto; }
+
 .mdz-footer ul {
   margin: 0;
   padding: 0;

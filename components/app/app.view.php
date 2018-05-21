@@ -171,7 +171,7 @@
             <p></p>
             <h2 class="title">Core-Framework - (PHP 7.2+)</h2>
             <p class="p-center">
-              A Modular PHP 7.2+ MVC Framework for both Website and Application Development.
+              A Modular PHP 7.2+ Component Framework for both Website and Application Development.
               Experience Single Page Application just by enabling 'airJax' in the config.php file.
               <br>
               <br>
@@ -187,7 +187,7 @@
         </div>
         <br>
         <center>
-            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-block ad-flat btn-tgreen">Get Started >></a>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn ad-round ad-md ad-flat btn-tgreen">Get Started >></a>
         </center>
 
 
@@ -207,19 +207,72 @@
   <div class="wrapper">
       <div class="ad-cols-4">
         <div class="ad-card ad-flat">
-          <h2 class="title text-normal">cQured Web API Framework - (PHP 7.2+)</h2>
-          <p>
-              This is a PHP 7 MVC  Web API Framework to partner client-side applications like Angular, Ionic, etc.
+          <div class="ad-card  ad-round bg-dark ad-shadow outline">
+
+            <h2 class="title text-normal">cQured MVC Web API - (PHP 7.2+)</h2>
+            <p>
+              This is a PHP 7.2 <span class='color-yellow'>MVC  Web API</span> Framework to partner client-side applications like Angular, ReactJS, Ionic, etc.
               <br>
               <br>
               You have the creative freedom to write your own API with our framework to respond to HTTP REQUESTS in a cQured way.
 
-          </p>
+            </p>
+          </div>
+          <div class="text-center">
+            <img src="<?=CDN;?>images/logo/cquredWhite.png" alt="">
+          </div>
           <p>
             Apply the frameworks 'authguard', JWT authentication with composer or your own authorization code to further secure access to your URI(controllers).
             Its Simple and Easy to use.
           </p>
-          <a href="<?=BaseUrl;?>api/rest" class="ad-btn ad-block ad-flat btn-pink">Get Rest API >></a>
+
+          <a href="<?=BaseUrl;?>api/rest" class="ad-btn ad-round ad-md outline btn-yellow">Get Started with cQured >></a>
+        </div>
+
+
+      </div>
+
+
+      <div class="ad-cols-4">
+        <div class="ad-card ad-round bg-dark ad-shadow outline">
+          <div class="ad-card ad-flat">
+            <h2 class="title text-normal">airAPI (RESTful) WebAPI</h2>
+            <p >
+            This is a PHP 7.2 <span class='color-prim'>REST API</span> to partner client-side applications like Angular, ReactJS, Ionic, etc.
+            </p>
+
+            <div class="ad-list">
+              <div class="ad-item">
+                <h3 class='color-prim'>GET REQUEST</h3>
+                https://api.com/tasks - displays all tasks
+              </div>
+
+              <div class="ad-item">
+                <h3 class='color-prim'>POST REQUEST</h3>
+                https://api.com/tasks - creates a new task
+              </div>
+
+              <div class="ad-item">
+                <h3 class='color-prim'>GET REQUEST</h3>
+                https://api.com/tasks/<span class='color-yellow'>{{id}}</span> - display a taskby ID
+              </div>
+
+              <div class="ad-item">
+                <h3 class='color-prim'>PUT REQUEST</h3>
+                https://api.com/tasks/<span class='color-yellow'>{{id}}</span> - update a taskby ID
+              </div>
+
+              <div class="ad-item">
+                <h3 class='color-prim'>DELETE REQUEST</h3>
+                https://api.com/tasks/<span class='color-yellow'>{{id}}</span> - delete a taskby ID
+              </div>
+
+            </div>
+
+            <p>
+              <a href="<?=BaseUrl;?>rest" class="ad-btn  ad-round ad-md outline btn-prim">Get API >></a>
+            </p>
+          </div>
         </div>
 
 
@@ -227,15 +280,74 @@
 
 
       </div>
-      <div class="ad-cols-8">
-        <div class="ad-card ad-img ad-flat center">
-            <img src="<?=CDN;?>images/home/restAPI.png" class="img-responsive" alt="">
+
+      <div class="ad-cols-4">
+        <div class="ad-card ad-img bg-white center">
+            <img src="<?=CDN;?>images/framework/api.jpg" class="img-responsive" alt="">
         </div>
       </div>
   </div>
 
 
 </section>
+
+<!-- <section class="ad-section bg-dark" id="airAPI">
+    <div class="wrapper">
+        <div class="ad-cols-4">
+          <div class="ad-card ad-round bg-dark ad-shadow outline">
+            <div class="ad-card ad-flat">
+              <h2 class="title text-normal">airAPI (RESTful) WebAPI</h2>
+              <p >
+                Designers and coders alike have contributed to the beauty of the web; we can always push it further.
+              </p>
+
+              <div class="ad-list">
+                <div class="ad-item">
+                  <h3 class='color-prim'>GET REQUEST</h3>
+                  https://api.com/tasks - displays all tasks
+                </div>
+
+                <div class="ad-item">
+                  <h3 class='color-prim'>POST REQUEST</h3>
+                  https://api.com/tasks - creates a new task
+                </div>
+
+                <div class="ad-item">
+                  <h3 class='color-prim'>GET REQUEST</h3>
+                  https://api.com/tasks/<span class='color-yellow'>{{id}}</span> - display a taskby ID
+                </div>
+
+                <div class="ad-item">
+                  <h3 class='color-prim'>PUT REQUEST</h3>
+                  https://api.com/tasks/<span class='color-yellow'>{{id}}</span> - update a taskby ID
+                </div>
+
+                <div class="ad-item">
+                  <h3 class='color-prim'>DELETE REQUEST</h3>
+                  https://api.com/tasks/<span class='color-yellow'>{{id}}</span> - delete a taskby ID
+                </div>
+
+              </div>
+
+              <p>
+                <a href="<?=BaseUrl;?>rest" class="ad-btn  ad-round ad-md outline btn-prim">Get API >></a>
+              </p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+        <div class="ad-cols-8">
+          <div class="ad-card ad-img ad-flat center">
+              <img src="<?=CDN;?>images/framework/airdesignss.jpg"  class="img-responsive"  alt="">
+          </div>
+        </div>
+    </div>
+</section> -->
+
 
 <div class="clearfix">
 
@@ -267,61 +379,4 @@
 
       </div>
   </div>
-</section>
-
-<section class=" ad-section " id="templates">
-    <div class="wrapper">
-      <div class="ad-row">
-
-        <div class="ad-cols-12">
-          <div class="ad-card ad-flat">
-
-            <center>
-              <h2 class="title">Download Free Templates</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-              </p>
-            </center>
-          </div>
-          <br>
-
-
-        </div>
-
-      </div>
-
-        <div class="ad-row temp">
-          <div class="ad-cols-4">
-            <div class="ad-card ad-img  ad-block center">
-                <img src="<?=CDN;?>images/templates/temp01.png" class="img-responsive" alt="">
-            </div>
-            <br>
-
-
-          </div>
-          <div class="ad-cols-4">
-            <div class="ad-card ad-img  ad-block  center">
-                <img src="<?=CDN;?>images/templates/temp02.png" class="img-responsive"  alt="">
-            </div>
-            <br>
-
-
-          </div>
-          <div class="ad-cols-4">
-            <div class="ad-card ad-img  ad-block  center">
-                <img src="<?=CDN;?>images/templates/temp03.png" class="img-responsive"  alt="">
-            </div>
-            <br>
-
-
-          </div>
-        </div>
-
-        <div class="clearfix">
-          <center>
-              <a href="<?=BaseUrl;?>store/templates" class="ad-btn ad-block clear ad-flat btn-dark">Get Templates >></a>
-          </center>
-        </div>
-    </div>
 </section>
