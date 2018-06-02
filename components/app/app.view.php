@@ -56,7 +56,7 @@
     <div class="wrapper">
         <div class="ad-cols-12">
         <div class="ad-card ad-flat text-center">
-            <h1 class='title text-normal'>Developed to do everything you want to do</h1>
+            <h1 class='title text-normal'>Developed to do <span class='color-pink'>Everything</span> you want to do</h1>
             <p class="p-center" style="font-size:16px;">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus
                 <br>
@@ -125,31 +125,64 @@
 <section class="airMedia ad-section bg-white" id="airMedia">
     <div class="wrapper">
         <div class="ad-cols-12">
-          <div class="ad-card text-center ad-flat">
-            <p></p>
-            <h2 class="title">airMedia - CSS Media Componets</h2>
-            <p  class="p-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-            </p>
 
-          </div>
-<br>
-        <div class="ad-card ad-img ad-block center">
-          <div class="ad-slide-group" responsive effect='crossLeft'>
-            <img src="<?=CDN;?>images/framework/framework.PNG"  class="ad-slide img-responsive" alt="">
-            <img src="<?=CDN;?>images/framework/framework.PNG"  class="ad-slide img-responsive" alt="">
-            <img src="<?=CDN;?>images/framework/framework.PNG"  class="ad-slide img-responsive" alt="">
+        <div class="ad-card ad-flat ">
+          <div class="ad-row">
+            <div class="ad-cols-8">
+              <img src="<?=CDN;?>images/banner/open.png"  class="img-responsive"  alt="">
+            </div>
 
+            <div class="ad-cols-4">
+              <div class="ad-card ad-block bg-smoke ad-flat pull-left">
+                <div class="ad-line"></div>
+                  <p class='title'>
+                    Carousel
+                  </p>
+              </div>
+
+            </div>
           </div>
         </div>
         <br>
+        <br>
+        <div class="ad-card ad-flat ">
+          <div class="ad-row">
+
+                        <div class="ad-cols-4">
+                          <div class="ad-card ad-block bg-smoke ad-flat pull-right">
+                            <div class="ad-line"></div>
+                              <p class='title'>Images & Content Slider</p>
+                          </div>
+
+                        </div>
+            <div class="ad-cols-8">
+              <img src="<?=CDN;?>images/banner/open.png"  class="img-responsive"  alt="">
+            </div>
+
+          </div>
+        </div>
+<br>
+<br>
+        <div class="ad-card ad-flat ">
+          <div class="ad-row">
+            <div class="ad-cols-8">
+              <img src="<?=CDN;?>images/banner/open.png"  class="img-responsive"  alt="">
+            </div>
+
+            <div class="ad-cols-4">
+              <div class="ad-card ad-block bg-smoke ad-flat pull-left">
+                <div class="ad-line"></div>
+                  <p class='title'>Media Player <br> Video & Audio</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+<br>
         <center>
-            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-round ad-md ad-flat btn-blue">Get Started >></a>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-round ad-md ad-flat btn-pink">Get Media Components >></a>
         </center>
 
-
-        </div>
     </div>
 </section>
 

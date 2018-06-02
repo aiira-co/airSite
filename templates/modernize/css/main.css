@@ -168,4 +168,28 @@
 .colorPallate.yellow {
   background-color: #fff600; }
 
+.bg-smoke {
+  background-color: whitesmoke; }
+
+.airMedia .ad-line {
+  height: 5px;
+  background-color: #ff0066;
+  width: 50px;
+  margin-left: 46px;
+  margin-top: 30px; }
+.airMedia .bg-smoke {
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  width: 300px; }
+  .airMedia .bg-smoke.pull-left {
+    left: -52px; }
+  .airMedia .bg-smoke.pull-right {
+    right: -52px; }
+  .airMedia .bg-smoke p {
+    padding: 30px;
+    padding-top: 0;
+    margin-top: 10px;
+    font-size: 20px; }
+
 /*# sourceMappingURL=main.css.map */
