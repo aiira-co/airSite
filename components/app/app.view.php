@@ -1,6 +1,6 @@
 <style media="screen">
   .ad-nav {
-    /* display: none; */
+    display: none;
   }
 
 
@@ -29,24 +29,22 @@
   </ul>
 </div>
 
-<section class="banner ad-section bg-dark" id="top" style="background-image:url('<?=CDN;?>/images/banner/open.png');">
+<section class="banner ad-section bg-dark" id="top" style="background-image:url('<?=CDN;?>/images/banner/open.ng');">
     <div class="wrapper">
         <div class="ad-cols-12">
           <div class="ad-card ad-flat text-center">
             <div class="logo">
-              <img src="<?=CDN;?>images/logo/airdesign2White.png" class="img-responsive" alt="">
+              <img src="<?=CDN;?>images/logo/logo.png" class="img-responsive" alt="">
             </div>
             <br>
             <h1 class="title text-normal">
-              Developed to do everything you want to do
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+<br>
             <div>
-              <a href="#airDesign" class="ad-btn ad-block btn-prim outline">airDesign</a>
-              <a href="#coreFramework" class="ad-btn ad-block ad-flat btn-tgreen ">coreFramework</a>
-              <a href="#REST" class="ad-btn ad-block ad-flat btn-pink ">cQured API</a>
+              <a href="#airDesign" class="ad-btn ad-round ad-md btn-blue">airDesign</a>
+              <a href="#coreFramework" class="ad-btn ad-round ad-md ad-flat btn-blue ">coreFramework</a>
+              <a href="#REST" class="ad-btn ad-round ad-md ad-flat btn-blue ">cQured API</a>
             </div>
           </div>
 
@@ -57,24 +55,16 @@
 <section class="intro ad-section bg-white" >
     <div class="wrapper">
         <div class="ad-cols-12">
-        <div class="text-center">
-            <h2>Quick Intro</h2>
-            <p class="p-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
+        <div class="ad-card ad-flat text-center">
+            <h1 class='title text-normal'>Developed to do everything you want to do</h1>
+            <p class="p-center" style="font-size:16px;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus
+                <br>
+                <br>
+                <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round btn-blue ad-md">Visit My GitHub Page</a>
             </p>
         </div>
-<br>
-        <div class="ad-card ad-img ad-flat center" style="width:60%; margin:0 auto; max-width:600px;">
-            <img src="<?=CDN;?>images/home/video.jpg" class="img-responsive" alt="">
-        </div>
-        <br>
-        <center>
-            <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round shine-green"><i class="fa fa-html5"></i></a>
-            <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round shine-pink"><i class="fa fa-code"></i></a>
-            <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round "><i class="fa fa-bolt"></i></a>
-            <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round shine-yellow"><i class="fa fa-shopping-cart"></i></a>
-        </center>
+
 
 
         </div>
@@ -110,7 +100,7 @@
               </div>
 
               <p>
-                <a href="<?=BaseUrl;?>design" class="ad-btn ad-flat ad-round ad-md btn-blue">Get Design >></a>
+                <a href="<?=BaseUrl;?>design" class="ad-btn ad-flat ad-round ad-md btn-blue">Get Web UI Design >></a>
               </p>
             </div>
           </div>
@@ -132,7 +122,7 @@
 
 
 
-<section class="airMedia ad-section " id="airMedia">
+<section class="airMedia ad-section bg-white" id="airMedia">
     <div class="wrapper">
         <div class="ad-cols-12">
           <div class="ad-card text-center ad-flat">
@@ -155,7 +145,7 @@
         </div>
         <br>
         <center>
-            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-block ad-flat btn-pink">Get Started >></a>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-round ad-md ad-flat btn-blue">Get Started >></a>
         </center>
 
 
@@ -182,12 +172,15 @@
 
           </div>
 <br>
-        <div class="ad-card ad-img ad-block center">
+        <div class="ad-card ad-img ad-round bg-white ad-shadow center">
+          <div class="ad-card ad-flat ad-round">
+
             <img src="<?=CDN;?>images/framework/coreframework2.jpg"  class="img-responsive" alt="">
+          </div>
         </div>
         <br>
         <center>
-            <a href="<?=BaseUrl;?>framework" class="ad-btn ad-round ad-md ad-flat btn-tgreen">Get Started >></a>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn ad-round ad-md ad-flat btn-blue">Get Started With Lynq PHP >></a>
         </center>
 
 
@@ -209,7 +202,7 @@
         <div class="ad-card ad-flat">
           <div class="ad-card  ad-round bg-dark ad-shadow outline">
 
-            <h2 class="title text-normal">cQured MVC Web API - (PHP 7.2+)</h2>
+            <h2 class="title text-normal">CQured MVC Web API - (PHP 7.2+)</h2>
             <p>
               This is a PHP 7.2 <span class='color-yellow'>MVC  Web API</span> Framework to partner client-side applications like Angular, ReactJS, Ionic, etc.
               <br>
@@ -226,7 +219,7 @@
             Its Simple and Easy to use.
           </p>
 
-          <a href="<?=BaseUrl;?>api/rest" class="ad-btn ad-round ad-md outline btn-yellow">Get Started with cQured >></a>
+          <a href="<?=BaseUrl;?>api/rest" class="ad-btn ad-round ad-md outline btn-yellow">Get Started with CQured >></a>
         </div>
 
 
@@ -363,14 +356,13 @@
         </div>
       </div>
       <div class="ad-cols-4">
-        <div class="ad-card ad-flat">
+        <div class="ad-card bg-grey ad-flat">
           <h2 class="title">airSuite - Our Enterprise Software Suite</h2>
           <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus eligendi sapiente mollitia earum quos ratione cupiditate minima, nisi dolor ea illo? Deserunt, et?
           </p>
 
-          <a href="<?=BaseUrl;?>softwares" class="ad-btn ad-block ad-flat btn-dark">Read More >></a>
+          <a href="<?=BaseUrl;?>softwares" class="ad-btn ad-round ad-md ad-flat btn-dark">Read More >></a>
         </div>
 
 
