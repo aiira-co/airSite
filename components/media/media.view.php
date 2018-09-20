@@ -3,20 +3,27 @@
     <div class="ad-row">
       <div class="ad-cols-12">
         <div class="ad-card ad-flat text-center">
-          <div class="logo">
-            <img src="<?=CDN;?>images/logo/airmediaWhite.png" class="img-responsive" alt="">
+          <div class="logo" style='height:160px; width:300px;'>
+            <br>
+            <img src="<?=CDN;?>images/logo/airMedia_White3.png" class="img-responsive" alt="">
           </div>
           <br>
           <h2 class="title text-normal">
-            airMedia
+            airMedia UI Components
           </h2>
           <p class="p-center">
-          AirMedia is a CSS, Javascript library for user interface components like, caurosel, content slider, video ad audio player.
-          We make use of CSS properties and JavaScript to bring the experience to your browser.
-          Our library is absolutely free to use for both commercial and private projects.
+          Carousel, Content slider, Video and Audio Player.
+
           </p>
           <br>
-          <a href="https://github.com/air-Design/airMedia" target="_blank" class="ad-btn ad-block ad-md btn-yellow">Download Media</a>
+          <a href="https://github.com/air-Design/airDesign" target="_blank" class="ad-btn ad-round ad-md btn-yellow ">
+            <i class="fa fa-download"></i>
+            Download
+          </a>
+          <a href="https://github.com/ProjectAir/airMedia" target="_blank" class="ad-btn ad-round ad-md btn-yellow ">
+            <i class="fa fa-gitlab"></i>
+            Source Code
+          </a>
         </div>
       </div>
     </div>

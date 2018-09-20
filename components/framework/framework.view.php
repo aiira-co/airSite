@@ -4,18 +4,24 @@
       <div class="ad-cols-12">
         <div class="ad-card ad-flat text-center">
           <div class="logo">
-            <img src="<?=CDN;?>images/logo/coreframeworkWhite.png" class="img-responsive" alt="">
+            <img src="<?=CDN;?>images/logo/lynqWhite.png" class="img-responsive" alt="">
           </div>
           <br>
           <h2 class="title text-normal">
-            CoreFramework: PHP 7.2+ Framework
+            LynqPHP Framework
           </h2>
           <p class="p-center">
-            Develope Professional Website and Applications with ease:
-  PHP 7 Framework with AirJax Framework, and airDesign in-the-box 'AirJax' is a lite javascript framework written for Single Page Application experience.
+            Develope Professional Web Applications with ease.
           </p>
           <br>
-          <a href="https://github.com/air-Design/coreFramework" target="_blank" class="ad-btn ad-block ad-md btn-tgreen">Download Framework</a>
+          <a href="https://github.com/air-Design/coreFramework" target="_blank" class="ad-btn ad-round ad-md btn-blue ">
+            <i class="fa fa-download"></i>
+            Download
+          </a>
+          <a href="https://github.com/ProjectAir/coreFramework" target="_blank" class="ad-btn ad-round ad-md btn-blue ">
+            <i class="fa fa-gitlab"></i>
+            Source Code
+          </a>
         </div>
       </div>
     </div>

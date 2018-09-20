@@ -4,11 +4,11 @@
       <div class="ad-cols-12">
         <div class="ad-card ad-flat text-center">
           <div class="logo">
-            <img src="<?=CDN;?>images/logo/airestWhite.png" class="img-responsive" alt="">
+            <img src="<?=CDN;?>images/logo/smartAPI_White.png" class="img-responsive" alt="">
           </div>
           <br>
           <h2 class="title text-normal">
-            aiREST API (PHP 7.2+)
+            Smart API (PHP 7.2+)
           </h2>
           <p class="p-center">
             This is a PHP 7 Web API to partner client-side applications like
@@ -18,7 +18,14 @@
             CoreModel available in the box for Datab…
           </p>
           <br>
-          <a href="#" class="ad-btn ad-block ad-md btn-pink">Download Framework</a>
+          <a href="https://github.com/air-Design/cqured" target="_blank" class="ad-btn ad-round ad-md btn-pink ">
+            <i class="fa fa-download"></i>
+            Download
+          </a>
+          <a href="https://github.com/ProjectAir/cqured" target="_blank" class="ad-btn ad-round ad-md btn-pink ">
+            <i class="fa fa-gitlab"></i>
+            Source Code
+          </a>
         </div>
       </div>
     </div>

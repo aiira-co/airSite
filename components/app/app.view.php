@@ -43,8 +43,8 @@
 <br>
             <div>
               <a href="#airDesign" class="ad-btn ad-round ad-md btn-blue">airDesign</a>
-              <a href="#coreFramework" class="ad-btn ad-round ad-md ad-flat btn-blue ">coreFramework</a>
-              <a href="#REST" class="ad-btn ad-round ad-md ad-flat btn-blue ">cQured API</a>
+              <a href="#coreFramework" class="ad-btn ad-round ad-md ad-flat btn-blue ">Lynq-PHP</a>
+              <a href="#REST" class="ad-btn ad-round ad-md ad-flat btn-blue ">CQured API</a>
             </div>
           </div>
 
@@ -61,7 +61,26 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laborum, veritatis, iure culpa laboriosam nemo temporibus
                 <br>
                 <br>
-                <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round btn-blue ad-md">Visit My GitHub Page</a>
+                <!-- <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round btn-blue ad-md">
+                  Visit My GitHub Page
+                </a> -->
+
+                <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round btn-dark ad-md ad-icon " ad-tip='Visit My GitHub Page'>
+                  <i class='fa fa-github'></i>
+                </a>
+
+                <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round btn-dark ad-md ad-icon " ad-tip='Visit My GitLab Page'>
+                  <i class='fa fa-gitlab'></i>
+                </a>
+
+                <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round btn-dark ad-md ad-icon " ad-tip='Visit My GitLab Page'>
+                  <i class='fa fa-youtube'></i>
+                </a>
+
+                <a href="<?=BaseUrl;?>account" class="ad-btn  ad-round btn-dark ad-md ad-icon " ad-tip='Visit My GitLab Page'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+
             </p>
         </div>
 
@@ -100,7 +119,9 @@
               </div>
 
               <p>
-                <a href="<?=BaseUrl;?>design" class="ad-btn ad-flat ad-round ad-md btn-blue">Get Web UI Design >></a>
+                <a href="<?=BaseUrl;?>design" class="ad-btn ad-flat ad-round ad-md btn-blue">
+                  Get Web UI Design
+                </a>
               </p>
             </div>
           </div>
@@ -180,7 +201,9 @@
         </div>
 <br>
         <center>
-            <a href="<?=BaseUrl;?>framework" class="ad-btn  ad-round ad-md ad-flat btn-pink">Get Media Components >></a>
+            <a href="<?=BaseUrl;?>media" class="ad-btn  ad-round ad-md ad-flat btn-pink">
+              Get Media Components
+            </a>
         </center>
 
     </div>
@@ -192,7 +215,7 @@
         <div class="ad-cols-12">
           <div class="ad-card ad-flat text-center">
             <p></p>
-            <h2 class="title">Core-Framework - (PHP 7.2+)</h2>
+            <h2 class="title">Lynq-PHP Framework</h2>
             <p class="p-center">
               A Modular PHP 7.2+ Component Framework for both Website and Application Development.
               Experience Single Page Application just by enabling 'airJax' in the config.php file.
@@ -213,7 +236,9 @@
         </div>
         <br>
         <center>
-            <a href="<?=BaseUrl;?>framework" class="ad-btn ad-round ad-md ad-flat btn-blue">Get Started With Lynq PHP >></a>
+            <a href="<?=BaseUrl;?>framework" class="ad-btn ad-round ad-md ad-flat btn-blue">
+              Get Started With Lynq-PHP
+            </a>
         </center>
 
 
@@ -252,7 +277,7 @@
             Its Simple and Easy to use.
           </p>
 
-          <a href="<?=BaseUrl;?>api/rest" class="ad-btn ad-round ad-md outline btn-yellow">Get Started with CQured >></a>
+          <a href="<?=BaseUrl;?>api/cqured" class="ad-btn ad-round ad-md outline btn-yellow">Get Started with CQured >></a>
         </div>
 
 
@@ -262,7 +287,7 @@
       <div class="ad-cols-4">
         <div class="ad-card ad-round bg-dark ad-shadow outline">
           <div class="ad-card ad-flat">
-            <h2 class="title text-normal">airAPI (RESTful) WebAPI</h2>
+            <h2 class="title text-normal">SmartAPI (RESTful)</h2>
             <p >
             This is a PHP 7.2 <span class='color-prim'>REST API</span> to partner client-side applications like Angular, ReactJS, Ionic, etc.
             </p>
@@ -296,7 +321,7 @@
             </div>
 
             <p>
-              <a href="<?=BaseUrl;?>rest" class="ad-btn  ad-round ad-md outline btn-prim">Get API >></a>
+              <a href="<?=BaseUrl;?>api/rest" class="ad-btn  ad-round ad-md outline btn-prim">Get API >></a>
             </p>
           </div>
         </div>

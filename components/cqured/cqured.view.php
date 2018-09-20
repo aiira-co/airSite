@@ -4,21 +4,26 @@
       <div class="ad-cols-12">
         <div class="ad-card ad-flat text-center">
           <div class="logo">
+            <br>
             <img src="<?=CDN;?>images/logo/cquredWhite.png" class="img-responsive" alt="">
           </div>
           <br>
           <h2 class="title text-normal">
-            cQured Web-API (PHP 7.2+)
+            CQured MVC Web API(PHP 7.2+)
           </h2>
           <p class="p-center">
-            This is a PHP 7 Web API Framework to partner client-side applications like
-            Angular, Ionic, etc.
-            Simple and Easy to use.
-            Extensible with composer Use JWT the easy way.
-            CoreModel available in the box for Datab…
+            Develope your WebAPI with ease.
+            Its Simple, Easy and CQured.
           </p>
           <br>
-          <a href="https://github.com/air-Design/cqured" target="_blank" class="ad-btn ad-block ad-md btn-pink">Download Framework</a>
+          <a href="https://github.com/air-Design/cqured" target="_blank" class="ad-btn ad-round ad-md btn-pink ">
+            <i class="fa fa-download"></i>
+            Download
+          </a>
+          <a href="https://github.com/ProjectAir/cqured" target="_blank" class="ad-btn ad-round ad-md btn-pink ">
+            <i class="fa fa-gitlab"></i>
+            Source Code
+          </a>
         </div>
       </div>
     </div>

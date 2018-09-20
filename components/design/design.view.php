@@ -10,10 +10,17 @@
             airDesign CSS Framework
           </h2>
           <p class="p-center">
-            Designers and coders alike have contributed to the beauty of the web; we can always push it further. Air Design is a unified system that combines theory, resources, and tools for crafting digital experiences.
+            Adaptive CSS & JS UI for Buttons, Form Inputs, Cards, Accordian etc.
           </p>
           <br>
-          <a href="https://github.com/air-Design/airDesign" target="_blank" class="ad-btn ad-round ad-md btn-prim ">Download airDesign</a>
+          <a href="https://github.com/air-Design/airDesign" target="_blank" class="ad-btn ad-round ad-md btn-prim ">
+            <i class="fa fa-download"></i>
+            Download
+          </a>
+          <a href="https://github.com/air-Design/airDesign" target="_blank" class="ad-btn ad-round ad-md btn-prim ">
+            <i class="fa fa-gitlab"></i>
+            Source Code
+          </a>
         </div>
       </div>
     </div>
